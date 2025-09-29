@@ -8,6 +8,7 @@ source ~/.aliases
 
 # Plugins
 plugins=(
+  archlinux
   git
   docker
   docker-compose
@@ -21,3 +22,6 @@ eval "$(starship init zsh)"
 
 # Zoxide
 eval "$(zoxide init zsh)"
+
+# NVM
+source /usr/share/nvm/init-nvm.sh
