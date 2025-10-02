@@ -1,8 +1,3 @@
-# OMZ
-export ZSH="$HOME/.oh-my-zsh"
-source $ZSH/oh-my-zsh.sh
-ZSH_THEME=''
-
 # Aliases
 source ~/.aliases
 
@@ -17,6 +12,10 @@ plugins=(
   zsh-syntax-highlighting
 )
 
+# OMZ
+export ZSH="$HOME/.oh-my-zsh"
+source $ZSH/oh-my-zsh.sh
+
 # Starship
 eval "$(starship init zsh)"
 
@@ -25,3 +24,6 @@ eval "$(zoxide init zsh)"
 
 # NVM
 source /usr/share/nvm/init-nvm.sh
+
+
+
